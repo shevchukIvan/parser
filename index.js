@@ -47,7 +47,6 @@ app.get('/', (req, res) => {
           res.set('Content-Type', 'application/xml');
           
           // Send the modified XML data as response
-          console.log("new message");
           res.send(modifiedXmlData);
         }
       });
